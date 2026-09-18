@@ -1,0 +1,26 @@
+[
+  {
+    "id": "KB-101",
+    "title": "Reset VPN password",
+    "keywords": ["vpn", "password", "reset", "login"],
+    "content": "To reset your VPN password, open the VPN portal, click 'Forgot Password', verify your identity, and follow the reset email instructions. If you are locked out, contact the IT helpdesk or use the self-service portal."
+  },
+  {
+    "id": "KB-102",
+    "title": "Laptop troubleshooting checklist",
+    "keywords": ["laptop", "restart", "slow", "battery", "issues"],
+    "content": "For common laptop issues, restart the device, check battery health, verify all needed drivers are updated, and confirm the Wi-Fi adapter is enabled. If the issue persists, raise a support ticket with error details."
+  },
+  {
+    "id": "KB-103",
+    "title": "MFA setup guide",
+    "keywords": ["mfa", "multi-factor", "authentication", "auth"],
+    "content": "Set up MFA by installing the authenticator app, registering your phone, and approving sign-in prompts. If you do not receive a code, reset your device security settings or contact support."
+  },
+  {
+    "id": "KB-104",
+    "title": "Remote desktop access",
+    "keywords": ["remote desktop", "rdp", "access", "vpn"],
+    "content": "To access remote desktop, connect to VPN first, then launch the secure remote desktop client. Ensure your workstation is powered on and your account has the required access permissions."
+  }
+]

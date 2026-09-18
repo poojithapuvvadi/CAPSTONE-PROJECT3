@@ -1,0 +1,23 @@
+[
+  {
+    "employee_id": "EMP1024",
+    "name": "Priya Nair",
+    "department": "Operations",
+    "email": "priya.nair@contoso.com",
+    "role": "admin"
+  },
+  {
+    "employee_id": "EMP2048",
+    "name": "Daniel Kim",
+    "department": "Engineering",
+    "email": "daniel.kim@contoso.com",
+    "role": "employee"
+  },
+  {
+    "employee_id": "EMP3056",
+    "name": "Aisha Rahman",
+    "department": "Finance",
+    "email": "aisha.rahman@contoso.com",
+    "role": "employee"
+  }
+]

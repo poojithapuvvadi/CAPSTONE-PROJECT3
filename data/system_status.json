@@ -1,0 +1,22 @@
+[
+  {
+    "system_name": "VPN Gateway",
+    "status": "Operational",
+    "notes": "Latency normal, no active incidents."
+  },
+  {
+    "system_name": "Corporate Email",
+    "status": "Degraded",
+    "notes": "Some mail queues delayed but recoverable."
+  },
+  {
+    "system_name": "Remote Desktop",
+    "status": "Operational",
+    "notes": "No reported outages."
+  },
+  {
+    "system_name": "Identity Provider",
+    "status": "Operational",
+    "notes": "Authentication healthy."
+  }
+]
