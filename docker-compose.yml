@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  ai-support-assistant:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-it-support-assistant
+    ports:
+      - "8501:8501"
+    environment:
+      # LLM Configuration
+      LLM_PROVIDER: ${LLM_PROVIDER:-openai}
+      USE_LLM_RESPONSES: ${USE_LLM_RESPONSES:-true}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    volumes:
+      # Persist SQLite database
+      - ./data:/app/data
+      # Optional: mount .env for configuration
+      - ./.env:/app/.env:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
